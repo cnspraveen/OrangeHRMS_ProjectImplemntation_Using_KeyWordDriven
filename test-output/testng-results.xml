@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[http://opensource.demo.orangehrmlive.com/  :   TimeOut is  :  55]]>
+    </line>
+    <line>
+      <![CDATA[Description :   Action :   ElementRepo : input]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username :   Enter :   XPATH_.//*[@name='txtUsername'] : Admin]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password :   Enter :   XPATH_//*[@id='txtPassword'] : admin]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login Button :   Click :   ID_btnLogin : ]]>
+    </line>
+    <line>
+      <![CDATA[Clcik on WelCOme Admin Button :   Click :   ID_welcome : ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Recruitment :   Click :   XPATH_.//*[@id='menu_recruitment_viewRecruitmentModule'] : ]]>
+    </line>
+    <line>
+      <![CDATA[Click On "Add" button :   Click :   XPATH_.//*[@id='btnAdd'] : ]]>
+    </line>
+    <line>
+      <![CDATA[Enter Candidate FirstName :   Enter :   XPATH_.//*[@id='addCandidate_firstName'] : Shiv]]>
+    </line>
+    <line>
+      <![CDATA[Enter Candidate LastName :   Enter :   XPATH_.//*[@id='addCandidate_lastName'] : Shiv]]>
+    </line>
+    <line>
+      <![CDATA[Enter Candidate Email ID :   Enter :   XPATH_.//*[@id='addCandidate_email'] : cns.praveen@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Click on Profile upload Browse Button :   upload :   XPATH_.//*[@id='addCandidate_resume'] : C:\Documents\upload Profile.docx]]>
+    </line>
+    <line>
+      <![CDATA[Enter Date in Date-of-Application :   Enter :   XPATH_.//*[@id='addCandidate_appliedDate'] : 2016-09-16]]>
+    </line>
+    <line>
+      <![CDATA[Click on Save Button :   Click :   XPATH_.//*[@id='btnSave'] : ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Candidate  :   Click :   XPATh_.//*[@id='menu_recruitment_viewCandidates'] : ]]>
+    </line>
+    <line>
+      <![CDATA[Identify Job Title WebList & Select "All" :   Select :   XPATh_.//*[@id='candidateSearch_jobTitle'] : All]]>
+    </line>
+    <line>
+      <![CDATA[Identify Job Vacancy WebList & Select "ALL" :   Select :   XPATH_.//*[@id='candidateSearch_jobVacancy'] : All]]>
+    </line>
+    <line>
+      <![CDATA[Identify Status WebList & Select  :   Select :   XPATH_.//*[@id='candidateSearch_status'] : All]]>
+    </line>
+    <line>
+      <![CDATA[Click on UserName Field :   Clcik :   XPATH_.//*[@id='candidateSearch_candidateName'] : ]]>
+    </line>
+    <line>
+      <![CDATA[Enter Selected UserName :   Enter :   XPATH_.//*[@id='candidateSearch_candidateName'] : Shiv Shiv]]>
+    </line>
+    <line>
+      <![CDATA[Enter Value in From Calender :   Enter :   XPATH_.//*[@id='candidateSearch_fromDate'] : 2016-09-16]]>
+    </line>
+    <line>
+      <![CDATA[Enter Value in To Calender :   Enter :   XPATH_.//*[@id='candidateSearch_toDate'] : 2016-09-17]]>
+    </line>
+    <line>
+      <![CDATA[Click oN Search button :   Click :   XPATH_.//*[@id='btnSrch'] : ]]>
+    </line>
+    <line>
+      <![CDATA[Click on CheckBox related to Candidate :   Click :   XPATh_.//*[@name='chkSelectAll'] : ]]>
+    </line>
+    <line>
+      <![CDATA[Click oN Delete Button :   Click :   XPATH_.//*[@id='btnDelete'] : ]]>
+    </line>
+    <line>
+      <![CDATA[Click on OK button for Delete Confirmation Pop-up :   Click :   XPATH_.//*[@id='dialogDeleteBtn'] : ]]>
+    </line>
+    <line>
+      <![CDATA[GetText of Successful Delete :   GetText :   XPATH_.//*[@class='message success fadable'] : ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="91820" started-at="2016-09-17T06:35:52Z" finished-at="2016-09-17T06:37:24Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="91820" started-at="2016-09-17T06:35:52Z" finished-at="2016-09-17T06:37:24Z">
+      <class name="com.Orange.HRMS.MainFunctions.Delta">
+        <test-method status="PASS" signature="InitFramework()[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="InitFramework" is-config="true" duration-ms="147" started-at="2016-09-17T12:05:52Z" finished-at="2016-09-17T12:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitFramework -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="AppLaunch" is-config="true" duration-ms="21624" started-at="2016-09-17T12:05:52Z" finished-at="2016-09-17T12:06:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "FirefoxTest" verbose:1[parameters:browser=>Firefox][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.Orange.HRMS.MainFunctions.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[http://opensource.demo.orangehrmlive.com/  :   TimeOut is  :  55]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="PASS" signature="MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="MultipleLoginActitime" duration-ms="64124" started-at="2016-09-17T12:06:14Z" data-provider="getMultipleScenarios" finished-at="2016-09-17T12:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RecuritRegistration_SearchSame ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Description :   Action :   ElementRepo : input]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username :   Enter :   XPATH_.//*[@name='txtUsername'] : Admin]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password :   Enter :   XPATH_//*[@id='txtPassword'] : admin]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login Button :   Click :   ID_btnLogin : ]]>
+            </line>
+            <line>
+              <![CDATA[Clcik on WelCOme Admin Button :   Click :   ID_welcome : ]]>
+            </line>
+            <line>
+              <![CDATA[Click on Recruitment :   Click :   XPATH_.//*[@id='menu_recruitment_viewRecruitmentModule'] : ]]>
+            </line>
+            <line>
+              <![CDATA[Click On "Add" button :   Click :   XPATH_.//*[@id='btnAdd'] : ]]>
+            </line>
+            <line>
+              <![CDATA[Enter Candidate FirstName :   Enter :   XPATH_.//*[@id='addCandidate_firstName'] : Shiv]]>
+            </line>
+            <line>
+              <![CDATA[Enter Candidate LastName :   Enter :   XPATH_.//*[@id='addCandidate_lastName'] : Shiv]]>
+            </line>
+            <line>
+              <![CDATA[Enter Candidate Email ID :   Enter :   XPATH_.//*[@id='addCandidate_email'] : cns.praveen@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Click on Profile upload Browse Button :   upload :   XPATH_.//*[@id='addCandidate_resume'] : C:\Documents\upload Profile.docx]]>
+            </line>
+            <line>
+              <![CDATA[Enter Date in Date-of-Application :   Enter :   XPATH_.//*[@id='addCandidate_appliedDate'] : 2016-09-16]]>
+            </line>
+            <line>
+              <![CDATA[Click on Save Button :   Click :   XPATH_.//*[@id='btnSave'] : ]]>
+            </line>
+            <line>
+              <![CDATA[Click on Candidate  :   Click :   XPATh_.//*[@id='menu_recruitment_viewCandidates'] : ]]>
+            </line>
+            <line>
+              <![CDATA[Identify Job Title WebList & Select "All" :   Select :   XPATh_.//*[@id='candidateSearch_jobTitle'] : All]]>
+            </line>
+            <line>
+              <![CDATA[Identify Job Vacancy WebList & Select "ALL" :   Select :   XPATH_.//*[@id='candidateSearch_jobVacancy'] : All]]>
+            </line>
+            <line>
+              <![CDATA[Identify Status WebList & Select  :   Select :   XPATH_.//*[@id='candidateSearch_status'] : All]]>
+            </line>
+            <line>
+              <![CDATA[Click on UserName Field :   Clcik :   XPATH_.//*[@id='candidateSearch_candidateName'] : ]]>
+            </line>
+            <line>
+              <![CDATA[Enter Selected UserName :   Enter :   XPATH_.//*[@id='candidateSearch_candidateName'] : Shiv Shiv]]>
+            </line>
+            <line>
+              <![CDATA[Enter Value in From Calender :   Enter :   XPATH_.//*[@id='candidateSearch_fromDate'] : 2016-09-16]]>
+            </line>
+            <line>
+              <![CDATA[Enter Value in To Calender :   Enter :   XPATH_.//*[@id='candidateSearch_toDate'] : 2016-09-17]]>
+            </line>
+            <line>
+              <![CDATA[Click oN Search button :   Click :   XPATH_.//*[@id='btnSrch'] : ]]>
+            </line>
+            <line>
+              <![CDATA[Click on CheckBox related to Candidate :   Click :   XPATh_.//*[@name='chkSelectAll'] : ]]>
+            </line>
+            <line>
+              <![CDATA[Click oN Delete Button :   Click :   XPATH_.//*[@id='btnDelete'] : ]]>
+            </line>
+            <line>
+              <![CDATA[Click on OK button for Delete Confirmation Pop-up :   Click :   XPATH_.//*[@id='dialogDeleteBtn'] : ]]>
+            </line>
+            <line>
+              <![CDATA[GetText of Successful Delete :   GetText :   XPATH_.//*[@class='message success fadable'] : ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MultipleLoginActitime -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="quitApp" is-config="true" duration-ms="5043" started-at="2016-09-17T12:07:18Z" finished-at="2016-09-17T12:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultipleLoginActitime status=SUCCESS method=Delta.MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815] output=Description :   Action :   ElementRepo : input]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="endFramework()[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="endFramework" is-config="true" duration-ms="228" started-at="2016-09-17T12:07:23Z" finished-at="2016-09-17T12:07:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endFramework -->
+      </class> <!-- com.Orange.HRMS.MainFunctions.Delta -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

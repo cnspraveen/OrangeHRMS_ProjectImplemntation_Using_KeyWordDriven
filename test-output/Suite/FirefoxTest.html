@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>TestNG:  FirefoxTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>FirefoxTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 17 12:05:52 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>91 seconds (91820 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime()'><b>MultipleLoginActitime</b><br>Test class: com.Orange.HRMS.MainFunctions.Delta<br>Parameters: RecuritRegistration_SearchSame , Yes<br/>
+<a href="#Output-349677967" onClick='toggleBox("Output-349677967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-349677967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-349677967">
+Description :   Action :   ElementRepo : input<br/>
+Enter Username :   Enter :   XPATH_.//*[@name='txtUsername'] : Admin<br/>
+Enter Password :   Enter :   XPATH_//*[@id='txtPassword'] : admin<br/>
+Click on Login Button :   Click :   ID_btnLogin : <br/>
+Clcik on WelCOme Admin Button :   Click :   ID_welcome : <br/>
+Click on Recruitment :   Click :   XPATH_.//*[@id='menu_recruitment_viewRecruitmentModule'] : <br/>
+Click On "Add" button :   Click :   XPATH_.//*[@id='btnAdd'] : <br/>
+Enter Candidate FirstName :   Enter :   XPATH_.//*[@id='addCandidate_firstName'] : Shiv<br/>
+Enter Candidate LastName :   Enter :   XPATH_.//*[@id='addCandidate_lastName'] : Shiv<br/>
+Enter Candidate Email ID :   Enter :   XPATH_.//*[@id='addCandidate_email'] : cns.praveen@gmail.com<br/>
+Click on Profile upload Browse Button :   upload :   XPATH_.//*[@id='addCandidate_resume'] : C:\Documents\upload Profile.docx<br/>
+Enter Date in Date-of-Application :   Enter :   XPATH_.//*[@id='addCandidate_appliedDate'] : 2016-09-16<br/>
+Click on Save Button :   Click :   XPATH_.//*[@id='btnSave'] : <br/>
+Click on Candidate  :   Click :   XPATh_.//*[@id='menu_recruitment_viewCandidates'] : <br/>
+Identify Job Title WebList & Select "All" :   Select :   XPATh_.//*[@id='candidateSearch_jobTitle'] : All<br/>
+Identify Job Vacancy WebList & Select "ALL" :   Select :   XPATH_.//*[@id='candidateSearch_jobVacancy'] : All<br/>
+Identify Status WebList & Select  :   Select :   XPATH_.//*[@id='candidateSearch_status'] : All<br/>
+Click on UserName Field :   Clcik :   XPATH_.//*[@id='candidateSearch_candidateName'] : <br/>
+Enter Selected UserName :   Enter :   XPATH_.//*[@id='candidateSearch_candidateName'] : Shiv Shiv<br/>
+Enter Value in From Calender :   Enter :   XPATH_.//*[@id='candidateSearch_fromDate'] : 2016-09-16<br/>
+Enter Value in To Calender :   Enter :   XPATH_.//*[@id='candidateSearch_toDate'] : 2016-09-17<br/>
+Click oN Search button :   Click :   XPATH_.//*[@id='btnSrch'] : <br/>
+Click on CheckBox related to Candidate :   Click :   XPATh_.//*[@name='chkSelectAll'] : <br/>
+Click oN Delete Button :   Click :   XPATH_.//*[@id='btnDelete'] : <br/>
+Click on OK button for Delete Confirmation Pop-up :   Click :   XPATH_.//*[@id='dialogDeleteBtn'] : <br/>
+GetText of Successful Delete :   GetText :   XPATH_.//*[@class='message success fadable'] : <br/>
+</div>
+</td>
+<td></td>
+<td>64</td>
+<td>com.Orange.HRMS.MainFunctions.Delta@6cc4c815</td></tr>
+</table><p>
+</body>
+</html>
